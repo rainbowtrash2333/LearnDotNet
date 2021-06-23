@@ -1,0 +1,13 @@
+D:\Twikura\Projects\LearnDotNet\LearnDotNet\obj\Debug\netcoreapp3.1\LearnDotNet.csproj.AssemblyReference.cache
+D:\Twikura\Projects\LearnDotNet\LearnDotNet\obj\Debug\netcoreapp3.1\LearnDotNet.AssemblyInfoInputs.cache
+D:\Twikura\Projects\LearnDotNet\LearnDotNet\obj\Debug\netcoreapp3.1\LearnDotNet.AssemblyInfo.cs
+D:\Twikura\Projects\LearnDotNet\LearnDotNet\obj\Debug\netcoreapp3.1\LearnDotNet.csproj.CoreCompileInputs.cache
+D:\Twikura\Projects\LearnDotNet\LearnDotNet\bin\Debug\netcoreapp3.1\LearnDotNet.exe
+D:\Twikura\Projects\LearnDotNet\LearnDotNet\bin\Debug\netcoreapp3.1\LearnDotNet.deps.json
+D:\Twikura\Projects\LearnDotNet\LearnDotNet\bin\Debug\netcoreapp3.1\LearnDotNet.runtimeconfig.json
+D:\Twikura\Projects\LearnDotNet\LearnDotNet\bin\Debug\netcoreapp3.1\LearnDotNet.runtimeconfig.dev.json
+D:\Twikura\Projects\LearnDotNet\LearnDotNet\bin\Debug\netcoreapp3.1\LearnDotNet.dll
+D:\Twikura\Projects\LearnDotNet\LearnDotNet\bin\Debug\netcoreapp3.1\LearnDotNet.pdb
+D:\Twikura\Projects\LearnDotNet\LearnDotNet\obj\Debug\netcoreapp3.1\LearnDotNet.dll
+D:\Twikura\Projects\LearnDotNet\LearnDotNet\obj\Debug\netcoreapp3.1\LearnDotNet.pdb
+D:\Twikura\Projects\LearnDotNet\LearnDotNet\obj\Debug\netcoreapp3.1\LearnDotNet.genruntimeconfig.cache

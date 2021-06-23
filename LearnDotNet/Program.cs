@@ -4,9 +4,13 @@ namespace LearnDotNet
 {
     class Program
     {
-        static void Main(string[] args)
+        
+    }
+    class HelloWorld
+    {
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello the World!");
         }
     }
 }
