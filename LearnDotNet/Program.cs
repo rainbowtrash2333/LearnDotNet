@@ -20,13 +20,15 @@ namespace LearnDotNet
             Console.Write("Hello My Firends,");
             //等效为Console.WriteLine(" do you like My little Pony?");
             Console.Write(" do you like My little Pony?\n");
-            Console.Write("I like it.");
-
+            Console.WriteLine("I like it.I like {0} and {1} very much.","Twilight Sparkle", "Rainbow Dash");
+            String pony_fs = "Flattershy";
+            Console.WriteLine("My Favorite pony is" + pony_fs + "!");
         }
         public static void HelloMyFriend()
         {
             Console.WriteLine("Hi, I'm Twikura, Can you tell me your name?");
-           
+            
+
         }
     }
 }
