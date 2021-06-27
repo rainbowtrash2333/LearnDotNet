@@ -26,6 +26,30 @@
 
 与C语言一样，例如`char* cptr`
 
+## 变量交换
+
+与Java一样，直接交换值类型的变量是没用的，如下面的代码：
+
+```C#
+ public static void swap(int a, int b)
+ {
+     int temp = a;
+     a = b;
+     b = temp;
+ }
+```
+
+直接调用`swap()`是不会交换的，使用`ref`修饰变量，类似于C的`&`，如下：
+
+```C#
+ public static void swap(ref int a, ref int b)
+ {
+     int temp = a;
+     a = b;
+     b = temp;
+ }
+```
+
 # 标准输入、输出
 
 在C#中，`Console.WorterLine()`为输出一行，输出的字符串后自动带“\n"换行，`Console.Write()`则为仅输出字符串，不会换行。同时可以使用“{<munber>}”作为占位符，构造字符串。同时也可以使用“+”链接字符串，同Java。
@@ -50,5 +74,5 @@ I like it.I like Twilight Sparkle and Rainbow Dash very much.
 My  pony isFlattershy!
 ```
 
-# 变量交换
+# 
 
