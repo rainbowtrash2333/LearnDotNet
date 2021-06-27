@@ -159,3 +159,19 @@ RanbowDash              1
 Flattershy              2
 ```
 
+# 可空类型（Nullable）
+
+无法直接赋值为 null 的数据类型进行 null 的赋值
+
+```c#
+int? i = 3;
+//等同于：
+Nullable<int> i = new Nullable<int>(3);
+
+int? ii;//默认值null
+
+double? num1 = null;
+double num3;
+num3 = num1 ?? 5.34;      // num1 如果为空值则返回 5.34
+```
+
