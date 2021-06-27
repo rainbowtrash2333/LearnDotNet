@@ -89,3 +89,73 @@ public static void HelloMyFriend()
 }
 ```
 
+# 常量、枚举、结构体
+
+这三个和C语言非常像，常量使用`const`修饰。枚举使用`enum`，结构体使用`struct`。
+
+```C#
+public enum Gender
+{
+    男,
+    女,
+}
+public struct Person
+{
+    public String _name;
+    public int _age;
+    public Gender _gender;
+}
+public enum Pony
+{
+    // 可以设定enum的int值，不能说与C差不多，只能说是一模一样
+    // TwilightSparkle=1,
+    TwilightSparkle,
+    RanbowDash,
+    Flattershy,
+    AppleJack,
+    // AppleJeck=6,
+    Rarity,
+    PinkiePie
+}
+public static void PersionSystem()
+{
+    Person Li;
+    Li._name = "Li Hua";
+    Li._age = 18;
+    Li._gender = Gender.男;
+    Console.WriteLine("name:\t\t{0}\r\nage:\t\t{1}\r\ngender:\t\t{2}", Li._name, Li._age, Li._gender);
+}
+public static void PonyValley()
+{
+    Pony TS = Pony.TwilightSparkle;
+    int TS_id = (int)TS;
+    int RD_id = 1;
+    Pony RD = (Pony)RD_id;
+    String FS_id_str = "2";
+    try
+    {
+        int FS_id = Convert.ToInt32(FS_id_str);
+        // String 转换为enum
+        Pony FS = (Pony)Enum.Parse(typeof(Pony), FS_id_str);
+          Console.WriteLine("name\t\tid\r\n{0}\t\t{1}\r\n{2}\t\t{3}\r\n{4}\t\t{5}\r\n", TS, TS_id, RD, RD_id, FS, FS_id);
+
+    }
+    catch
+    {
+        Console.WriteLine("error");
+    }
+}
+```
+
+输出如下
+
+```
+name:           Li Hua
+age:            18
+gender:         男
+name            id
+TwilightSparkle         0
+RanbowDash              1
+Flattershy              2
+```
+
