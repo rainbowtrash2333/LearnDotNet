@@ -52,6 +52,8 @@
 
 # 标准输入、输出
 
+## 输入
+
 在C#中，`Console.WorterLine()`为输出一行，输出的字符串后自动带“\n"换行，`Console.Write()`则为仅输出字符串，不会换行。同时可以使用“{<munber>}”作为占位符，构造字符串。同时也可以使用“+”链接字符串，同Java。
 
 ```C#
@@ -74,5 +76,16 @@ I like it.I like Twilight Sparkle and Rainbow Dash very much.
 My  pony isFlattershy!
 ```
 
-# 
+## 输出
+
+使用` Console.WriteLine();`来读取用户输入的内容，代码如下：
+
+```C#
+public static void HelloMyFriend()
+{
+    Console.WriteLine("Hi, I'm Twikura, Can you tell me your name?");
+    String name = Console.ReadLine();
+    Console.WriteLine("Hi,{0},nice to see you.", name);
+}
+```
 

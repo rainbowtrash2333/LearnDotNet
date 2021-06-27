@@ -8,7 +8,8 @@ namespace LearnDotNet
         {
             // Hello World
             //HelloWorld.PrintHelloWorld();
-            HelloWorld.Swap();
+            //HelloWorld.Swap();
+            HelloWorld.HelloMyFriend();
            
         }
     }
@@ -26,9 +27,12 @@ namespace LearnDotNet
             String pony_fs = "Flattershy";
             Console.WriteLine("My Favorite pony is" + pony_fs + "!");
         }
+        // 用户输入
         public static void HelloMyFriend()
         {
             Console.WriteLine("Hi, I'm Twikura, Can you tell me your name?");
+            String name = Console.ReadLine();
+            Console.WriteLine("Hi,{0},nice to see you.", name);
         }
         public static void Swap()
         {
